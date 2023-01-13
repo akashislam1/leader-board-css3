@@ -5,6 +5,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 main {
@@ -206,6 +208,8 @@ span {
 @media screen and (min-width: 669px) and (max-width: 992px) {
     .container {
         width: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
     }
 
     .players,
@@ -214,6 +218,7 @@ span {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
         justify-items: center;
+
     }
 
     .blog {
